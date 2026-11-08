@@ -34,7 +34,7 @@ jobs:
       - name: Build plugin
         uses: gradle/gradle-build-action@v3
         with:
-          gradle-version: '8.14'
+          gradle-version: '9.1.0'
           arguments: clean build
 
       - name: Upload plugin JAR
